@@ -21,6 +21,6 @@ module.exports = function() {
     app.use(methodOverride());
 
     require('../app/routes/index.server.routes.js')(app);
-    
+
     return app;
 };
